@@ -2,7 +2,7 @@ import { connectToDatabase } from '../../lib/mongodb';
 import Transaction from '../../models/Transaction';
 
 export async function handler(req, res) {
-  const db = await connectToDatabase();
+  // const db = await connectToDatabase();
 
   if (req.method === 'POST') {
     // Add a new transaction
